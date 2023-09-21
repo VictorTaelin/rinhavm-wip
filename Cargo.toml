@@ -1,13 +1,16 @@
 [package]
-name = "hvm-core"
+name = "rinhavm"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "hvm_core"
+name = "rinhavm"
 path = "src/lib.rs"
 
 [dependencies]
-nohash = "0.2.0"
+serde = "1.0"
+serde_json = "1.0"
+hvm-lang = { git = "https://github.com/HigherOrderCO/hvm-lang.git" }
+hvm-core = { git = "https://github.com/HigherOrderCO/hvm-core.git" }

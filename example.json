@@ -1,0 +1,117 @@
+{
+  "name": "example.rinha",
+  "expression": {
+    "kind": "Call",
+    "callee": {
+      "kind": "Call",
+      "callee": {
+        "kind": "Function",
+        "parameters": [
+          {
+            "text": "f"
+          }
+        ],
+        "value": {
+          "kind": "Function",
+          "parameters": [
+            {
+              "text": "x"
+            }
+          ],
+          "value": {
+            "kind": "Call",
+            "callee": {
+              "kind": "Var",
+              "text": "f"
+            },
+            "arguments": [
+              {
+                "kind": "Call",
+                "callee": {
+                  "kind": "Var",
+                  "text": "f"
+                },
+                "arguments": [
+                  {
+                    "kind": "Var",
+                    "text": "x"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "arguments": [
+        {
+          "kind": "Function",
+          "parameters": [
+            {
+              "text": "b"
+            }
+          ],
+          "value": {
+            "kind": "Function",
+            "parameters": [
+              {
+                "text": "t"
+              }
+            ],
+            "value": {
+              "kind": "Function",
+              "parameters": [
+                {
+                  "text": "f"
+                }
+              ],
+              "value": {
+                "kind": "Call",
+                "callee": {
+                  "kind": "Call",
+                  "callee": {
+                    "kind": "Var",
+                    "text": "b"
+                  },
+                  "arguments": [
+                    {
+                      "kind": "Var",
+                      "text": "f"
+                    }
+                  ]
+                },
+                "arguments": [
+                  {
+                    "kind": "Var",
+                    "text": "t"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "arguments": [
+      {
+        "kind": "Function",
+        "parameters": [
+          {
+            "text": "t"
+          }
+        ],
+        "value": {
+          "kind": "Function",
+          "parameters": [
+            {
+              "text": "f"
+            }
+          ],
+          "value": {
+            "kind": "Var",
+            "text": "t"
+          }
+        }
+      }
+    ]
+  }
+}
